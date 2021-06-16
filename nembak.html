@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Hai cantikkkk</h1>
+        <img src="https://uc9d1ba69fffd90491f1e743af12.previews.dropboxusercontent.com/p/thumb/ABMbDBL5DXBP2ctk6VT91JszPneTIjgi6v3aEH3aigqNy9cFgjLa6zC-zo1qmK7bxSEKl6Oyf5oirb4hDtrS24tFC1iLYVJL1swNKoJS4Q0c3qAB-K-QyNBjdWPgx5ciSrG3BtI1I7X2-NKuwIj4A03bKUz_zFNZqa6ohh8h8xvmHfDWZKdML2M3Ff1ntepbgTC23AJzqlHLyTbzOUmwxsx1HtDmcJsM8IGZT2wfdyDH-c6kwDCdAnbIlaPXlTHb2UcxcqadbfHEIk3q11swt7EzShveggQ4p4YZVn6IlYHkj7eLJ9nEjfwxqQZEPZA-_NQPrAqUG7kNL5NcyBbckwNT_uGXaUvRzOMGA3fCOns5_7BSg8-Kf6d6dJmH9FxuombLo1ibbe_4sxQgipzIQUJ0/p.png?size=2048x1536&size_mode=3">
+        <h1>Mau ga jadi pacarku?</h1>
+        <button id='btn_mau' onclick='alert("I love U ")'>Mau</button>&nbsp;
+        <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>Gamau</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>
+</html>
